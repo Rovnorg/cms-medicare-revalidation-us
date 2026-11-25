@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "to.rovn/healthcare-ops-mcp",
+  "title": "Rōvn Healthcare Operations & Credentialing MCP Server",
+  "description": "Public, zero-auth read-only MCP server for live CMS Nov 2026 Medicare revalidation NPI lookups, CMS NPPES v2.1 identity prep, 15-state RN/LPN/CNA licensing board lookups, and dated 2026 healthcare credentialing vendor comparisons by Rōvn (Rovn, https://rovn.to — distinct from Rivon Health).",
+  "version": "1.0.0",
+  "websiteUrl": "https://rovn.to",
+  "repository": {
+    "url": "https://github.com/Rovnorg/rovn",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rovn.to/api/mcp"
+    }
+  ],
+  "tools": [
+    "lookup_medicare_revalidation",
+    "lookup_nppes_provider",
+    "get_state_licensing_board",
+    "compare_credentialing_platforms"
+  ],
+  "privacy": {
+    "authentication": "none",
+    "storesUserQueries": false,
+    "containsPhi": false
+  }
+}

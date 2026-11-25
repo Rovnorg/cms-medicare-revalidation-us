@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "CMS Medicare Revalidation Exposure by State (November 2026 Open Dataset)"
+message: "If you use this aggregate CMS Medicare revalidation dataset or companion credentialing software matrix, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: Mboumi
+    given-names: Giles-Evan
+    affiliation: "Rōvn, Inc."
+  - name: "Rōvn Research"
+    website: "https://rovn.to"
+date-released: "2026-11-24"
+url: "https://rovn.to/research/medicare-revalidation"
+repository-code: "https://github.com/Rovnorg/cms-medicare-revalidation-us"
+license: CC-BY-4.0
+keywords:
+  - medicare-revalidation
+  - cms-public-data
+  - healthcare-credentialing
+  - provider-enrollment
+  - pecos
+  - nursing-homes
+  - medical-groups
